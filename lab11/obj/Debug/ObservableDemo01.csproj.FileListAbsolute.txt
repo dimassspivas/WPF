@@ -1,0 +1,15 @@
+F:\Университет\4 Семестр\Системная прога\ObservableDemo01\bin\Debug\ObservableDemo01.exe.config
+F:\Университет\4 Семестр\Системная прога\ObservableDemo01\bin\Debug\ObservableDemo01.exe
+F:\Университет\4 Семестр\Системная прога\ObservableDemo01\bin\Debug\ObservableDemo01.pdb
+F:\Университет\4 Семестр\Системная прога\ObservableDemo01\obj\Debug\ObservableDemo01.csproj.AssemblyReference.cache
+F:\Университет\4 Семестр\Системная прога\ObservableDemo01\obj\Debug\MainWindow.g.cs
+F:\Университет\4 Семестр\Системная прога\ObservableDemo01\obj\Debug\App.g.cs
+F:\Университет\4 Семестр\Системная прога\ObservableDemo01\obj\Debug\ObservableDemo01_MarkupCompile.cache
+F:\Университет\4 Семестр\Системная прога\ObservableDemo01\obj\Debug\ObservableDemo01_MarkupCompile.lref
+F:\Университет\4 Семестр\Системная прога\ObservableDemo01\obj\Debug\MainWindow.baml
+F:\Университет\4 Семестр\Системная прога\ObservableDemo01\obj\Debug\ObservableDemo01.g.resources
+F:\Университет\4 Семестр\Системная прога\ObservableDemo01\obj\Debug\ObservableDemo01.Properties.Resources.resources
+F:\Университет\4 Семестр\Системная прога\ObservableDemo01\obj\Debug\ObservableDemo01.csproj.GenerateResource.cache
+F:\Университет\4 Семестр\Системная прога\ObservableDemo01\obj\Debug\ObservableDemo01.csproj.CoreCompileInputs.cache
+F:\Университет\4 Семестр\Системная прога\ObservableDemo01\obj\Debug\ObservableDemo01.exe
+F:\Университет\4 Семестр\Системная прога\ObservableDemo01\obj\Debug\ObservableDemo01.pdb

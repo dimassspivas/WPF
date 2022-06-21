@@ -1,0 +1,55 @@
+﻿<Window x:Class="WpfBinding1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfBinding1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    
+    <Window.Resources>
+        <local:Car x:Key="car1" x:Name="Car1" Year="2016" Model="BMW" Velocity="220" />
+        <local:Car x:Key="car2" Year="2010" Model="Mercedes" Velocity="360" />
+    </Window.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            
+            <GroupBox Header="Car 1" BorderThickness="5" BorderBrush="CadetBlue"  >
+                <StackPanel Background="Bisque">
+                    <TextBox Text="{Binding Source={StaticResource car1}, Path=Model, UpdateSourceTrigger=PropertyChanged}"/>
+                    <TextBox Text="{Binding Source={StaticResource car1}, Path=Year}"/>
+                    <TextBox Text="{Binding Source={StaticResource car1}, Path=Velocity}"/>
+                </StackPanel>
+            </GroupBox>
+
+            <GroupBox Grid.Row="1" Header="Car 2" BorderThickness="5" BorderBrush="DarkSeaGreen"  >
+                <StackPanel Background="Bisque">
+                    <TextBox Text="{Binding Source={StaticResource car2}, Path=Model, UpdateSourceTrigger=PropertyChanged}"/>
+                    <TextBox Text="{Binding Source={StaticResource car2}, Path=Year}"/>
+                    <TextBox Text="{Binding Source={StaticResource car2}, Path=Velocity}"/>
+                </StackPanel>
+            </GroupBox>
+
+            <GroupBox Grid.Row="2" Header="Car 1 View" BorderThickness="5" BorderBrush="AliceBlue"  >
+                <StackPanel Background="Bisque">
+                    <TextBlock Text="{Binding Source={StaticResource car1}, Path=Model}"/>
+                    <TextBlock Text="{Binding Source={StaticResource car1}, Path=Year}"/>
+                    <TextBlock Text="{Binding Source={StaticResource car1}, Path=Velocity}"/>
+                </StackPanel>
+            </GroupBox>
+        </Grid>
+
+        
+   </Grid>
+</Window>

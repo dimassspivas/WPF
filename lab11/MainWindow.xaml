@@ -1,0 +1,40 @@
+﻿<Window x:Class="ObservableDemo01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ObservableDemo01"
+        mc:Ignorable="d"
+        Title="Orders" Height="350" Width="525">
+    <Window.Resources>
+        <DataTemplate x:Key="OrderTemplate">
+            <WrapPanel Background="DarkGray">
+                <TextBlock Text="{Binding Id}" Margin="2" Foreground="Green"/>
+                <TextBox Text="{Binding Path=Customer}" Margin="2"/>
+                <TextBox Text="{Binding Path=Price, Mode=TwoWay}" Margin="2"/>
+                <DatePicker SelectedDate="{Binding Path=Date, Mode=TwoWay}"/>
+            </WrapPanel>
+        </DataTemplate>
+    </Window.Resources>
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <ListBox Name="lbxOrders"
+                 ItemTemplate="{StaticResource OrderTemplate}">
+            
+        </ListBox>
+        
+        <StackPanel Grid.Column="1" VerticalAlignment="Bottom">
+            <Button Name="btnNew"  Content="New" Margin="3" Click="btnAdd_Click"></Button>
+            <Button Name="btnDelete"  Content="Delete" Margin="3" Click="btnDelete_Click" IsEnabled="{Binding Orders.IsEmpty}"></Button>
+            <Button Name="btnLoad"  Content="Open..." Margin="3" Click="btnLoad_Click"></Button>
+            <Button Name="btnSave"  Content="Save..." Margin="3" Click="btnSave_Click"></Button>
+            <Button Name="btnLanguages"  Content="Languages" Margin="3" Click="btnSave_Click"></Button>
+            <Button Name="btnSearch"  Content="Search..." Margin="3" Click="btnSave_Click"></Button>
+            <Button Name="btnExit"  Content="Exit" Margin="3" Click="btnSave_Click"></Button>            
+        </StackPanel>
+    </Grid>
+</Window>
