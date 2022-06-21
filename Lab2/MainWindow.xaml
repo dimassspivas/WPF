@@ -1,0 +1,41 @@
+﻿<Window x:Class="Lab2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab2"
+        mc:Ignorable="d"
+        FontSize="30"
+        FontFamily="Arial"
+        Title="Solver Async" Height="400" Width="700">
+    <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Separator Grid.Row="0" VerticalAlignment="Top"/>
+            <TextBlock Text="Async Solver" Margin="30" />
+            <Separator Grid.Row="0"  VerticalAlignment="Bottom" />
+
+
+
+            <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center" Margin="50,0">
+                <TextBlock Name="Txt1"  VerticalAlignment="Center" Text="Task 1"/>
+                <ProgressBar Name="PrBar1" Width="250" Margin="80,0" Maximum="100"/>
+                <Button Width="40" Height="40" Click="Button_Click_Stop1" Background="White" BorderThickness="0">
+                    <Image Source="Resources/cancel.png"/>
+                </Button>
+            </StackPanel>
+            <StackPanel Grid.Row="2" Orientation="Horizontal" VerticalAlignment="Center" Margin="50,0">
+                <TextBlock VerticalAlignment="Center" Text="Task 2"/>
+                <ProgressBar x:Name="PrBar2" Width="250" Margin="80,0" Maximum="100"/>
+                <Button Width="40" Height="40" Click="Button_Click_Stop2" Background="White" BorderThickness="0">
+                    <Image Source="Resources/cancel.png"/>
+                </Button>
+            </StackPanel>
+            <Button Grid.Row="3" Content="Start" Click="Button_Click_Start"></Button>
+
+        </Grid>
+</Window>

@@ -1,0 +1,30 @@
+D:\VS\Lab1\Lab3\bin\Debug\Lab3.exe.config
+D:\VS\Lab1\Lab3\bin\Debug\Lab3.exe
+D:\VS\Lab1\Lab3\bin\Debug\Lab3.pdb
+D:\VS\Lab1\Lab3\obj\Debug\Lab3.csproj.AssemblyReference.cache
+D:\VS\Lab1\Lab3\obj\Debug\MainWindow.g.cs
+D:\VS\Lab1\Lab3\obj\Debug\App.g.cs
+D:\VS\Lab1\Lab3\obj\Debug\Lab3_MarkupCompile.cache
+D:\VS\Lab1\Lab3\obj\Debug\Lab3_MarkupCompile.lref
+D:\VS\Lab1\Lab3\obj\Debug\MainWindow.baml
+D:\VS\Lab1\Lab3\obj\Debug\Lab3.g.resources
+D:\VS\Lab1\Lab3\obj\Debug\Lab3.Properties.Resources.resources
+D:\VS\Lab1\Lab3\obj\Debug\Lab3.csproj.GenerateResource.cache
+D:\VS\Lab1\Lab3\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
+D:\VS\Lab1\Lab3\obj\Debug\Lab3.exe
+D:\VS\Lab1\Lab3\obj\Debug\Lab3.pdb
+D:\VS\SP 2022\Lab3 - Downloader\bin\Debug\Lab3.exe.config
+D:\VS\SP 2022\Lab3 - Downloader\bin\Debug\Lab3.exe
+D:\VS\SP 2022\Lab3 - Downloader\bin\Debug\Lab3.pdb
+D:\VS\SP 2022\Lab3 - Downloader\obj\Debug\Lab3.csproj.AssemblyReference.cache
+D:\VS\SP 2022\Lab3 - Downloader\obj\Debug\MainWindow.g.cs
+D:\VS\SP 2022\Lab3 - Downloader\obj\Debug\App.g.cs
+D:\VS\SP 2022\Lab3 - Downloader\obj\Debug\Lab3_MarkupCompile.cache
+D:\VS\SP 2022\Lab3 - Downloader\obj\Debug\Lab3_MarkupCompile.lref
+D:\VS\SP 2022\Lab3 - Downloader\obj\Debug\MainWindow.baml
+D:\VS\SP 2022\Lab3 - Downloader\obj\Debug\Lab3.g.resources
+D:\VS\SP 2022\Lab3 - Downloader\obj\Debug\Lab3.Properties.Resources.resources
+D:\VS\SP 2022\Lab3 - Downloader\obj\Debug\Lab3.csproj.GenerateResource.cache
+D:\VS\SP 2022\Lab3 - Downloader\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
+D:\VS\SP 2022\Lab3 - Downloader\obj\Debug\Lab3.exe
+D:\VS\SP 2022\Lab3 - Downloader\obj\Debug\Lab3.pdb
