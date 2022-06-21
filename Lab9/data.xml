@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Order>
+    <Id>1115524</Id>
+    <Customer>Julia Roberts</Customer>
+    <Price>12120</Price>
+    <Date>2018-02-12T00:00:00</Date>
+  </Order>
+  <Order>
+    <Id>350075</Id>
+    <Customer>Phil Connor</Customer>
+    <Price>13232</Price>
+    <Date>2018-02-05T00:00:00</Date>
+  </Order>
+  <Order>
+    <Id>1983836</Id>
+    <Customer>Elli Scott</Customer>
+    <Price>1321323</Price>
+    <Date>2018-02-27T00:00:00</Date>
+  </Order>
+</ArrayOfOrder>

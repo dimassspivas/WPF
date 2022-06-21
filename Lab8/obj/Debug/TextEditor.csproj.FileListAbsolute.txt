@@ -1,0 +1,17 @@
+D:\VS\TextEditor\TextEditor\bin\Debug\TextEditor.exe.config
+D:\VS\TextEditor\TextEditor\bin\Debug\TextEditor.exe
+D:\VS\TextEditor\TextEditor\bin\Debug\TextEditor.pdb
+D:\VS\TextEditor\TextEditor\obj\Debug\TextEditor.csproj.AssemblyReference.cache
+D:\VS\TextEditor\TextEditor\obj\Debug\MainWindow.g.cs
+D:\VS\TextEditor\TextEditor\obj\Debug\App.g.cs
+D:\VS\TextEditor\TextEditor\obj\Debug\TextEditor_MarkupCompile.cache
+D:\VS\TextEditor\TextEditor\obj\Debug\TextEditor_MarkupCompile.lref
+D:\VS\TextEditor\TextEditor\obj\Debug\MainWindow.baml
+D:\VS\TextEditor\TextEditor\obj\Debug\TextEditor.g.resources
+D:\VS\TextEditor\TextEditor\obj\Debug\TextEditor.Properties.Resources.resources
+D:\VS\TextEditor\TextEditor\obj\Debug\TextEditor.csproj.GenerateResource.cache
+D:\VS\TextEditor\TextEditor\obj\Debug\TextEditor.csproj.CoreCompileInputs.cache
+D:\VS\TextEditor\TextEditor\obj\Debug\TextEditor.exe
+D:\VS\TextEditor\TextEditor\obj\Debug\TextEditor.pdb
+D:\VS\TextEditor\TextEditor\bin\Debug\MaterialDesignColors.dll
+D:\VS\TextEditor\TextEditor\bin\Debug\MaterialDesignColors.pdb

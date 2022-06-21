@@ -1,0 +1,102 @@
+﻿<Window x:Class="TextEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextEditor"
+        mc:Ignorable="d"
+        FontFamily="Century Gothic"
+        FontSize="14"
+        Title="Text Editor" Height="450" Width="800"
+        Icon="Resources/Briefcase.ico"
+        Background="LightGray"
+        Closing="Window_Closing" >
+    <Grid>
+        <Menu  Background="LightGray"
+              VerticalAlignment="Top" HorizontalAlignment="Left"
+              FontFamily="Century Gothic" FontSize="14" >
+            <MenuItem Header="File" BorderBrush="DarkGray"  >
+                <MenuItem x:Name="NewButton" Header="New" Click="SaveAs_Click" />
+                <MenuItem x:Name="OpenButton" Header="Open..." Click="Open_Click" />
+                <MenuItem x:Name="SaveButton" Header="Save" Click="Save_Click"/>
+                <MenuItem x:Name="SaveAsButton" Header="Save as..." Click="SaveAs_Click"/>
+            </MenuItem>
+            <MenuItem Header="Edit" BorderBrush="DarkGray">
+                <MenuItem Header="Cut" Command="ApplicationCommands.Cut"/>
+                <MenuItem Header="Copy" Command="ApplicationCommands.Copy"/>
+                <MenuItem Header="Paste" Command="ApplicationCommands.Paste"/>
+            </MenuItem>
+        </Menu>
+        <Grid Margin="15 15 15 10"  >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10"/>
+                <RowDefinition Height="0.15*"/>
+                <RowDefinition Height="0.1*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="0.1*"/>
+            </Grid.RowDefinitions>
+
+
+            <TextBlock Grid.Row="1" Text="Custom Text Editor"  FontSize="30" 
+                   VerticalAlignment="Center" HorizontalAlignment="Left"
+                   FontFamily="Century Gothic" FontStyle="Italic"/>
+
+            <ToolBar Grid.Row="2" Height="30" Background="LightGray" >
+                <Button ToolTip="New" Click="SaveAs_Click">
+                    <Image Source="Resources/New.png"/>
+                </Button>
+                <Button ToolTip="Open..." Click="Open_Click">
+                    <Image Source="Resources/Open.png"/>
+                </Button>
+                <Button ToolTip="Save" IsEnabled="{Binding ElementName=SaveButton, Path=IsEnabled}" Click="Save_Click">
+                    <Image Source="Resources/Save.png"/>
+                </Button>
+                <Button ToolTip="Save as" IsEnabled="{Binding ElementName=SaveAsButton, Path=IsEnabled}" Click="SaveAs_Click">
+                    <Image Source="Resources/Save as.png"/>
+                </Button>
+                <Button ToolTip="Cut" Command="ApplicationCommands.Cut">
+                    <Image Source="Resources/Cut.png"/>
+                </Button>
+                <Button ToolTip="Copy" Command="ApplicationCommands.Copy">
+                    <Image Source="Resources/Copy.png"/>
+                </Button>
+                <Button ToolTip="Paste" Command="ApplicationCommands.Paste">
+                    <Image Source="Resources/Paste.png"/>
+                </Button>
+            </ToolBar>
+
+
+            <TextBox Grid.Row="3" x:Name="Text" 
+                 TextWrapping="Wrap" AllowDrop="True"  
+                 TextChanged="Text_TextChanged" Grid.ColumnSpan="2" 
+                 AcceptsReturn="True" 
+                 KeyUp="Text_KeyUp"
+                 MouseDoubleClick="Text_MouseDoubleClick"/>
+
+            <StatusBar Grid.Row="4" >
+                <StatusBar.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" MinWidth="150"/>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+
+                            </Grid.ColumnDefinitions>
+                        </Grid>
+                    </ItemsPanelTemplate>
+                </StatusBar.ItemsPanel>
+                <StatusBarItem>
+                    <TextBlock x:Name="FileName" Text="File Name: "/>
+                </StatusBarItem>
+                <Separator Grid.Column="1" />
+                <StatusBarItem Grid.Column="2">
+                    <TextBlock x:Name="Cursor" Text="Line: 1, Col: 1" />
+                </StatusBarItem>
+
+            </StatusBar>
+
+        </Grid>
+    </Grid>
+    
+</Window>

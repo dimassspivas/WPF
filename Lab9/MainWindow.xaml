@@ -1,0 +1,74 @@
+﻿<Window x:Class="CommandOrderDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CommandOrderDemo"
+        mc:Ignorable="d"
+        Title="Orders" Height="350" Width="525">
+    <Window.Resources>
+        <DataTemplate x:Key="OrderTemplate">
+            <WrapPanel Background="DarkGray">
+                <TextBlock Text="{Binding Id}" Margin="2" Foreground="Green"/>
+                <TextBox Text="{Binding Path=Customer}" Margin="2"/>
+                <TextBox Text="{Binding Path=Price, Mode=TwoWay}" Margin="2"/>
+                <DatePicker SelectedDate="{Binding Path=Date, Mode=TwoWay}"/>
+            </WrapPanel>
+        </DataTemplate>
+    </Window.Resources>
+
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.New" Executed="NewCommand_Executed" CanExecute="NewCommand_CanExecute"/>
+        <CommandBinding Command="ApplicationCommands.Open" Executed="OpenCommand_Executed" CanExecute="OpenCommand_CanExecute"/>
+        <CommandBinding Command="ApplicationCommands.Save" Executed="SaveCommand_Executed" CanExecute="SaveCommand_CanExecute"/>
+        <CommandBinding Command="local:CustomCommands.Insert" Executed="InsertCommand_Executed" CanExecute="InsertCommand_CanExecute"/>
+        <CommandBinding Command="local:CustomCommands.Remove" Executed="RemoveCommand_Executed" CanExecute="RemoveCommand_CanExecute"/>
+
+        <CommandBinding Command="local:CustomCommands.Exit" Executed="RemoveCommand_Executed" CanExecute="RemoveCommand_CanExecute"/>
+    </Window.CommandBindings>
+
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="File">
+                <MenuItem Command="ApplicationCommands.New"></MenuItem>
+                <MenuItem Command="ApplicationCommands.Open"></MenuItem>
+                <MenuItem Command="ApplicationCommands.Save"></MenuItem>
+                <MenuItem Command="ApplicationCommands.SaveAs"></MenuItem>
+                <Separator/>
+                <MenuItem Header="Exit"></MenuItem>
+            </MenuItem>
+
+            <MenuItem Header="Edit">
+                <MenuItem Command="local:CustomCommands.Insert"></MenuItem>
+                <MenuItem Command="local:CustomCommands.Remove"></MenuItem>
+            </MenuItem>
+        </Menu>
+        
+        <ToolBarTray DockPanel.Dock="Top">
+            <ToolBar>
+                <Button Command="ApplicationCommands.New"></Button>
+                <Button Command="ApplicationCommands.Open"></Button>
+                <Button Command="ApplicationCommands.Save"></Button>
+            </ToolBar>
+            <ToolBar>
+                <Button Command="local:CustomCommands.Insert"></Button>
+                <Button Command="local:CustomCommands.Remove"></Button>
+            </ToolBar>
+        </ToolBarTray>
+        
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <ListBox Name="lbxOrders"
+                 ItemTemplate="{StaticResource OrderTemplate}">
+            </ListBox>
+
+            <StackPanel Grid.Column="1" VerticalAlignment="Bottom">
+
+            </StackPanel>
+        </Grid>
+    </DockPanel>
+
+</Window>
