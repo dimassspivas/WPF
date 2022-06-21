@@ -1,0 +1,30 @@
+D:\VS\SP 2022\Lab6\Lab6\bin\Debug\Lab6.exe.config
+D:\VS\SP 2022\Lab6\Lab6\bin\Debug\Lab6.exe
+D:\VS\SP 2022\Lab6\Lab6\bin\Debug\Lab6.pdb
+D:\VS\SP 2022\Lab6\Lab6\obj\Debug\Lab6.csproj.AssemblyReference.cache
+D:\VS\SP 2022\Lab6\Lab6\obj\Debug\MainWindow.g.cs
+D:\VS\SP 2022\Lab6\Lab6\obj\Debug\App.g.cs
+D:\VS\SP 2022\Lab6\Lab6\obj\Debug\Lab6_MarkupCompile.cache
+D:\VS\SP 2022\Lab6\Lab6\obj\Debug\Lab6_MarkupCompile.lref
+D:\VS\SP 2022\Lab6\Lab6\obj\Debug\MainWindow.baml
+D:\VS\SP 2022\Lab6\Lab6\obj\Debug\Lab6.g.resources
+D:\VS\SP 2022\Lab6\Lab6\obj\Debug\Lab6.Properties.Resources.resources
+D:\VS\SP 2022\Lab6\Lab6\obj\Debug\Lab6.csproj.GenerateResource.cache
+D:\VS\SP 2022\Lab6\Lab6\obj\Debug\Lab6.csproj.CoreCompileInputs.cache
+D:\VS\SP 2022\Lab6\Lab6\obj\Debug\Lab6.exe
+D:\VS\SP 2022\Lab6\Lab6\obj\Debug\Lab6.pdb
+D:\VS\SP 2022\Lab6 - PhotoViewer\Lab6\bin\Debug\Lab6.exe.config
+D:\VS\SP 2022\Lab6 - PhotoViewer\Lab6\bin\Debug\Lab6.exe
+D:\VS\SP 2022\Lab6 - PhotoViewer\Lab6\bin\Debug\Lab6.pdb
+D:\VS\SP 2022\Lab6 - PhotoViewer\Lab6\obj\Debug\Lab6.csproj.AssemblyReference.cache
+D:\VS\SP 2022\Lab6 - PhotoViewer\Lab6\obj\Debug\MainWindow.g.cs
+D:\VS\SP 2022\Lab6 - PhotoViewer\Lab6\obj\Debug\App.g.cs
+D:\VS\SP 2022\Lab6 - PhotoViewer\Lab6\obj\Debug\Lab6_MarkupCompile.cache
+D:\VS\SP 2022\Lab6 - PhotoViewer\Lab6\obj\Debug\Lab6_MarkupCompile.lref
+D:\VS\SP 2022\Lab6 - PhotoViewer\Lab6\obj\Debug\MainWindow.baml
+D:\VS\SP 2022\Lab6 - PhotoViewer\Lab6\obj\Debug\Lab6.g.resources
+D:\VS\SP 2022\Lab6 - PhotoViewer\Lab6\obj\Debug\Lab6.Properties.Resources.resources
+D:\VS\SP 2022\Lab6 - PhotoViewer\Lab6\obj\Debug\Lab6.csproj.GenerateResource.cache
+D:\VS\SP 2022\Lab6 - PhotoViewer\Lab6\obj\Debug\Lab6.csproj.CoreCompileInputs.cache
+D:\VS\SP 2022\Lab6 - PhotoViewer\Lab6\obj\Debug\Lab6.exe
+D:\VS\SP 2022\Lab6 - PhotoViewer\Lab6\obj\Debug\Lab6.pdb
