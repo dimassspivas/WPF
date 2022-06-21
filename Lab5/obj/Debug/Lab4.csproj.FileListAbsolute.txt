@@ -1,0 +1,45 @@
+D:\VS\Lab4\Lab4\bin\Debug\Lab4.exe.config
+D:\VS\Lab4\Lab4\bin\Debug\Lab4.exe
+D:\VS\Lab4\Lab4\bin\Debug\Lab4.pdb
+D:\VS\Lab4\Lab4\obj\Debug\Lab4.csproj.AssemblyReference.cache
+D:\VS\Lab4\Lab4\obj\Debug\MainWindow.g.cs
+D:\VS\Lab4\Lab4\obj\Debug\App.g.cs
+D:\VS\Lab4\Lab4\obj\Debug\Lab4_MarkupCompile.cache
+D:\VS\Lab4\Lab4\obj\Debug\Lab4_MarkupCompile.lref
+D:\VS\Lab4\Lab4\obj\Debug\MainWindow.baml
+D:\VS\Lab4\Lab4\obj\Debug\Lab4.g.resources
+D:\VS\Lab4\Lab4\obj\Debug\Lab4.Properties.Resources.resources
+D:\VS\Lab4\Lab4\obj\Debug\Lab4.csproj.GenerateResource.cache
+D:\VS\Lab4\Lab4\obj\Debug\Lab4.csproj.CoreCompileInputs.cache
+D:\VS\Lab4\Lab4\obj\Debug\Lab4.exe
+D:\VS\Lab4\Lab4\obj\Debug\Lab4.pdb
+D:\VS\SP 2022\Lab4 - TextSwapper\bin\Debug\Lab4.exe.config
+D:\VS\SP 2022\Lab4 - TextSwapper\bin\Debug\Lab4.exe
+D:\VS\SP 2022\Lab4 - TextSwapper\bin\Debug\Lab4.pdb
+D:\VS\SP 2022\Lab4 - TextSwapper\obj\Debug\Lab4.csproj.AssemblyReference.cache
+D:\VS\SP 2022\Lab4 - TextSwapper\obj\Debug\MainWindow.g.cs
+D:\VS\SP 2022\Lab4 - TextSwapper\obj\Debug\App.g.cs
+D:\VS\SP 2022\Lab4 - TextSwapper\obj\Debug\Lab4_MarkupCompile.cache
+D:\VS\SP 2022\Lab4 - TextSwapper\obj\Debug\Lab4_MarkupCompile.lref
+D:\VS\SP 2022\Lab4 - TextSwapper\obj\Debug\MainWindow.baml
+D:\VS\SP 2022\Lab4 - TextSwapper\obj\Debug\Lab4.g.resources
+D:\VS\SP 2022\Lab4 - TextSwapper\obj\Debug\Lab4.Properties.Resources.resources
+D:\VS\SP 2022\Lab4 - TextSwapper\obj\Debug\Lab4.csproj.GenerateResource.cache
+D:\VS\SP 2022\Lab4 - TextSwapper\obj\Debug\Lab4.csproj.CoreCompileInputs.cache
+D:\VS\SP 2022\Lab4 - TextSwapper\obj\Debug\Lab4.exe
+D:\VS\SP 2022\Lab4 - TextSwapper\obj\Debug\Lab4.pdb
+D:\VS\SP 2022\Lab4 - TextSwapper - Copy\bin\Debug\Lab4.exe.config
+D:\VS\SP 2022\Lab4 - TextSwapper - Copy\bin\Debug\Lab4.exe
+D:\VS\SP 2022\Lab4 - TextSwapper - Copy\bin\Debug\Lab4.pdb
+D:\VS\SP 2022\Lab4 - TextSwapper - Copy\obj\Debug\Lab4.csproj.AssemblyReference.cache
+D:\VS\SP 2022\Lab4 - TextSwapper - Copy\obj\Debug\MainWindow.g.cs
+D:\VS\SP 2022\Lab4 - TextSwapper - Copy\obj\Debug\App.g.cs
+D:\VS\SP 2022\Lab4 - TextSwapper - Copy\obj\Debug\Lab4_MarkupCompile.cache
+D:\VS\SP 2022\Lab4 - TextSwapper - Copy\obj\Debug\Lab4_MarkupCompile.lref
+D:\VS\SP 2022\Lab4 - TextSwapper - Copy\obj\Debug\MainWindow.baml
+D:\VS\SP 2022\Lab4 - TextSwapper - Copy\obj\Debug\Lab4.g.resources
+D:\VS\SP 2022\Lab4 - TextSwapper - Copy\obj\Debug\Lab4.Properties.Resources.resources
+D:\VS\SP 2022\Lab4 - TextSwapper - Copy\obj\Debug\Lab4.csproj.GenerateResource.cache
+D:\VS\SP 2022\Lab4 - TextSwapper - Copy\obj\Debug\Lab4.csproj.CoreCompileInputs.cache
+D:\VS\SP 2022\Lab4 - TextSwapper - Copy\obj\Debug\Lab4.exe
+D:\VS\SP 2022\Lab4 - TextSwapper - Copy\obj\Debug\Lab4.pdb
